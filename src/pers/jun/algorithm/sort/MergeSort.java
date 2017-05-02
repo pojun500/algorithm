@@ -32,7 +32,7 @@ public class MergeSort {
         // 单个元素不需要排序,直接返回  
         if (start == end) {  
             return;  
-        }  
+        }
   
         int sortSize = end - start + 1;  
         int seperate;  
